@@ -1,0 +1,456 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* transport_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-18 11:52+0000\n"
+"PO-Revision-Date: 2017-01-05 15:59-0600\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. module: transport_sale
+#: view:fleet.vehicle:transport_sale.inherited_fleet_vehicle_form_view
+msgid "Additional Properties"
+msgstr "Propiedades adicionales"
+
+#. module: transport_sale
+#: help:sale.order.fleet_vehicle,cargo_ids:0
+msgid "All sale order transported cargo"
+msgstr "Todos los ordenes de venta"
+
+#. module: transport_sale
+#: model:ir.model,name:transport_sale.model_sale_order_fleet_vehicle
+msgid "All sales order and associated vehicles"
+msgstr "Todos los vehículos asociados y pedido de ventas"
+
+#. module: transport_sale
+#: help:sale.order,cargo_ids:0
+msgid "All transported cargo manifest."
+msgstr "Todos los manifiestos de carga"
+
+#. module: transport_sale
+#: help:sale.order.cargo,cargo_docport:0
+#: help:sale.order.cargo,cargo_product_id:0
+msgid "Associated port document of the transported product if applicable."
+msgstr "Documento de puerto asociado del producto transportado, si corresponde."
+
+#. module: transport_sale
+#: field:sale.order.cargo,brand:0
+msgid "Brand"
+msgstr "Marca"
+
+#. module: transport_sale
+#: help:sale.order.cargo,brand:0
+msgid "Brand of the transported product if applicable."
+msgstr "Documento de puerto asociado del producto transportado, si corresponde."
+
+#. module: transport_sale
+#: field:sale.order,cargo_ids:0
+msgid "Cargo Manifest"
+msgstr "Manifiesto de carga"
+
+#. module: transport_sale
+#: field:sale.order.cargo,cargo_docport:0
+msgid "Cargo docport"
+msgstr "Cargo Docport"
+
+#. module: transport_sale
+#: field:sale.order.cargo,cargo_ident:0
+msgid "Cargo ident"
+msgstr "Cargo Ident"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,cargo_ids:0
+msgid "Cargo ids"
+msgstr "Cargo ids"
+
+#. module: transport_sale
+#: field:sale.order.cargo,cargo_product_id:0
+msgid "Cargo product id"
+msgstr "ID del producto cargado."
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.sale_order_fleet_vehicle_form_view
+msgid "Client Transport"
+msgstr "Trasporto por el cliente"
+
+#. module: transport_sale
+#: field:sale.order.cargo,create_uid:0
+#: field:sale.order.fleet_vehicle,create_uid:0
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: transport_sale
+#: field:sale.order.cargo,create_date:0
+#: field:sale.order.fleet_vehicle,create_date:0
+msgid "Created on"
+msgstr "Created en"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,delivery_date:0
+msgid "Delivery date"
+msgstr "Fecha de entrega"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.sale_order_fleet_vehicle_form_view
+msgid "Driver"
+msgstr "Chófer"
+
+#. module: transport_sale
+#: field:hr.employee,sales_order_helper_ids:0
+msgid "Driver Helper Sales"
+msgstr "Ventas ayudante conductor"
+
+#. module: transport_sale
+#: field:hr.employee,sales_order_ids:0
+msgid "Driver Sales"
+msgstr "Ventas conductor"
+
+#. module: transport_sale
+#: model:ir.model,name:transport_sale.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,employee_driver_id:0
+msgid "Employee driver id"
+msgstr "ID Empleado"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,employee_helper_id:0
+msgid "Employee helper id"
+msgstr "ID Empleado ayudante"
+
+#. module: transport_sale
+#: view:fleet.vehicle:transport_sale.inherited_fleet_vehicle_form_view
+msgid "Engine Options"
+msgstr "Opciones del motor"
+
+#. module: transport_sale
+#: code:addons/transport_sale/transport_sale.py:115
+#, python-format
+msgid "Error: Invalid return date"
+msgstr "Error: fecha de devolución no válida"
+
+#. module: transport_sale
+#: code:addons/transport_sale/transport_sale.py:125
+#, python-format
+msgid "Error: There is a cargo product that doesn't belongs to the sale order line!"
+msgstr "Error: ¡Hay un producto de carga que no pertenece a la línea de pedido de venta!"
+
+#. module: transport_sale
+#: help:sale.order,return_date:0
+msgid "Expected Transport finish date."
+msgstr "Fecha prevista de finalización del transporte."
+
+#. module: transport_sale
+#: help:sale.order,delivery_date:0
+msgid "Expected Transport start date."
+msgstr "Fecha prevista de inicio del transporte."
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,fleet_trailer_id:0
+msgid "Fleet trailer id"
+msgstr "Identificación del remolque de la flota"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,fleet_vehicle_id:0
+msgid "Fleet vehicle id"
+msgstr "Identificador del vehículo de flota"
+
+#. module: transport_sale
+#: field:sale.order,fleet_vehicles_ids:0
+msgid "Fleet vehicles ids"
+msgstr "Ids de vehículos de flota"
+
+#. module: transport_sale
+#: view:sale.order:transport_sale.inherited_sale_order_form_view
+#: field:sale.order.cargo,transport_from_id:0
+#: field:sale.order.fleet_vehicle,partner_departure_id:0
+msgid "From"
+msgstr "Desde"
+
+#. module: transport_sale
+#: field:sale.order.cargo,id:0 field:sale.order.fleet_vehicle,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: transport_sale
+#: help:sale.order.cargo,cargo_ident:0
+msgid "Identification of the cargo.Ex:Id,License Plate,Chassi"
+msgstr "Identificación de la carga.Ex: Id, matrícula"
+
+#. module: transport_sale
+#: model:ir.model,name:transport_sale.model_fleet_vehicle
+msgid "Information on a vehicle"
+msgstr "Información sobre un vehículo"
+
+#. module: transport_sale
+#: field:fleet.vehicle,internal_number:0
+#: field:sale.order.fleet_vehicle,internal_number:0
+msgid "Internal number"
+msgstr "Número interno"
+
+#. module: transport_sale
+#: view:fleet.vehicle:transport_sale.inherited_fleet_vehicle_form_view
+msgid "Is Trailer"
+msgstr "Es un remolque"
+
+#. module: transport_sale
+#: field:hr.employee,is_driver:0
+msgid "Is driver"
+msgstr "Es un chófer"
+
+#. module: transport_sale
+#: field:fleet.vehicle,is_trailer:0
+msgid "Is trailer"
+msgstr "es un remorque"
+
+#. module: transport_sale
+#: field:sale.order.cargo,write_uid:0
+#: field:sale.order.fleet_vehicle,write_uid:0
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: transport_sale
+#: field:sale.order.cargo,write_date:0
+#: field:sale.order.fleet_vehicle,write_date:0
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,license_plate:0
+msgid "License plate"
+msgstr "Placa"
+
+#. module: transport_sale
+#: view:sale.order:transport_sale.inherited_sale_order_form_view
+#: view:sale.order.fleet_vehicle:transport_sale.sale_order_fleet_vehicle_form_view
+msgid "Manifest"
+msgstr "Manifiesto"
+
+#. module: transport_sale
+#: view:fleet.vehicle:transport_sale.inherited_fleet_vehicle_form_view
+msgid "Mark this if the vehicle is a trailer"
+msgstr "Marque esto si el vehículo es un remolque"
+
+#. module: transport_sale
+#: field:sale.order.cargo,model:0
+msgid "Model"
+msgstr "Modelo"
+
+#. module: transport_sale
+#: help:sale.order.cargo,model:0
+msgid "Model of the transported product if applicable."
+msgstr "Modelo del producto transportado, si procede."
+
+#. module: transport_sale
+#: field:sale.order,partner_departure_id:0
+msgid "Partner departure id"
+msgstr "ID de salida de socio"
+
+#. module: transport_sale
+#: code:addons/transport_sale/transport_sale.py:178
+#, python-format
+msgid ""
+"Product: {prod}\n"
+"\tOrder={order} vs Cargo{cargo}"
+msgstr ""
+"Producto: {prod}\n"
+"\tOrden={order} vs Carga{cargo}"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,return_date:0
+msgid "Return date"
+msgstr "Fecha de regreso"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.sale_order_fleet_vehicle_form_view
+msgid "Sale and Transport Dates"
+msgstr "Fechas de Venta y Transporte"
+
+#. module: transport_sale
+#: field:sale.order.cargo,sale_order_fleet_id:0
+msgid "Sale order fleet id"
+msgstr "ID del camion en el pedido de venta"
+
+#. module: transport_sale
+#: field:sale.order.cargo,sale_order_id:0
+#: field:sale.order.fleet_vehicle,sale_order_id:0
+msgid "Sale order id"
+msgstr "ID pedido de venta"
+
+#. module: transport_sale
+#: model:ir.model,name:transport_sale.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,sales_date:0
+msgid "Sales date"
+msgstr "Fecha de venta"
+
+#. module: transport_sale
+#: help:sale.order.fleet_vehicle,delivery_date:0
+msgid "The date that will start to transport"
+msgstr "La fecha que comenzará a transportar"
+
+#. module: transport_sale
+#: help:sale.order.fleet_vehicle,transport_complete:0
+msgid "Mark this box if the transport is completed."
+msgstr "Marque esta casilla si se ha completado el transporte."
+
+#. module: transport_sale
+#: help:sale.order.cargo,transport_date:0
+msgid "The day when the product was transported."
+msgstr "El día en que el producto fue transportado."
+
+#. module: transport_sale
+#: help:sale.order.fleet_vehicle,return_date:0
+msgid "The expected date to finish all the transport"
+msgstr "La fecha prevista para terminar todo el transporte"
+
+#. module: transport_sale
+#: code:addons/transport_sale/transport_sale.py:183
+#, python-format
+msgid ""
+"The following products quantities in cargo don't match\n"
+" quantities line:\n"
+"{msg}"
+msgstr ""
+"Las siguientes cantidades de productos en la carga no coinciden\n"
+" linea del error:\n"
+"{msg}"
+
+#. module: transport_sale
+#: field:sale.order.cargo,transport_to_id:0
+#: field:sale.order.fleet_vehicle,partner_destination_id:0
+msgid "To"
+msgstr "A"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.sale_order_fleet_vehicle_form_view
+msgid "Trailer"
+msgstr "Remolque"
+
+#. module: transport_sale
+#: field:fleet.vehicle,sales_order_trailer_ids:0
+msgid "Trailer Sales"
+msgstr "Ventas de remolques"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,trailer_license_plate:0
+msgid "Trailer license plate"
+msgstr "Placa de matrícula del remolque"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.sale_order_fleet_vehicle_form_view
+msgid "Transport"
+msgstr "Transporte"
+
+#. module: transport_sale
+#: field:sale.order,return_date:0
+msgid "Transport Finish"
+msgstr "Final del transporte"
+
+#. module: transport_sale
+#: view:hr.employee:transport_sale.inherited_employee_form_view
+msgid "Transport Helper Driver"
+msgstr "Transportes del ayudante"
+
+#. module: transport_sale
+#: view:sale.order:transport_sale.inherited_sale_order_form_view
+msgid "Transport Information"
+msgstr "Información de transporte"
+
+#. module: transport_sale
+#: view:fleet.vehicle:transport_sale.inherited_fleet_vehicle_form_view
+msgid "Transport Sale Trailer"
+msgstr "Transportes del remolque"
+
+#. module: transport_sale
+#: view:fleet.vehicle:transport_sale.inherited_fleet_vehicle_form_view
+msgid "Transport Sale Vehicle"
+msgstr "Transportes del camión"
+
+#. module: transport_sale
+#: view:hr.employee:transport_sale.inherited_employee_form_view
+msgid "Transport Sales"
+msgstr "Ventas de transporte"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.daily_orders_search_view
+msgid "Today"
+msgstr "Hoy"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.daily_orders_search_view
+msgid "This week"
+msgstr "Esta semana"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.daily_orders_search_view
+msgid "Order Month"
+msgstr "Mes"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.daily_orders_search_view
+msgid "Group By"
+msgstr "Agrupar Por"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.daily_orders_search_view
+msgid "Daily Transports Order by Month"
+msgstr "Transportes diarios agrupados por mes"
+
+
+#. module: transport_sale
+#: field:sale.order,delivery_date:0
+msgid "Transport Start"
+msgstr "Inicio del transporte"
+
+#. module: transport_sale
+#: model:ir.model,name:transport_sale.model_sale_order_cargo
+msgid "Transport cargo from a sale order transport service"
+msgstr "Carga de un servicio de transporte"
+
+#. module: transport_sale
+#: field:sale.order.fleet_vehicle,transport_complete:0
+msgid "Transport complete"
+msgstr "Transporte completado"
+
+#. module: transport_sale
+#: model:ir.actions.act_window,name:transport_sale.daily_transports_action
+#: model:ir.ui.menu,name:transport_sale.daily_transports_menu
+#: view:sale.order.fleet_vehicle:transport_sale.daily_orders_tree_view
+msgid "Daily Transports"
+msgstr "Transportes diarios"
+
+#. module: transport_sale
+#: field:sale.order.cargo,transport_date:0
+msgid "Transport date"
+msgstr "Fecha de transporte"
+
+#. module: transport_sale
+#: view:sale.order.fleet_vehicle:transport_sale.sale_order_fleet_vehicle_form_view
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: transport_sale
+#: field:fleet.vehicle,sales_order_ids:0
+msgid "Vehicle Sales"
+msgstr "Ventas de vehículos"
+
+#. module: transport_sale
+#: view:fleet.vehicle:transport_sale.inherited_fleet_vehicle_form_view
+msgid "g/km"
+msgstr "g/km"
